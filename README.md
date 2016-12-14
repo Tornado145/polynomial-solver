@@ -1,4 +1,5 @@
 # polynomial-solver
+READ THIS IN THE RAW FORMAT
 The class is a bit complicated.
 I see what you're getting at with the String polynomial, but I'm not sure how you plan to break it up into the coefficients for each degree.
 Also, I'd like to know what the highest degree will be for this solver before we get on with it. Are we going to do something like this?
