@@ -14,16 +14,17 @@ public class Polynomial{
     setArray();
   }
   
-  private setDegree(int[] coefficients){
-      
-  }
+  private: 
+    void setDegree(int[] coefficients){
+      degree = coefficients.length;  
+    }
+   
+    void setArray(){
+    
+    }
   
-  private setArray(){
-    int[] coeff
-  }
-  
-  private setString(){
-  
-  }
+    void setString(){
+    
+    }
   
 }
