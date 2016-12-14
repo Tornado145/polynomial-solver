@@ -5,26 +5,21 @@ public class Polynomial{
   
   public Polynomial(int[] coefficients){
     this.coefficients = coefficients;
-    setDegree();
-    setString(coefficients);
+    setDegree(coefficients);
+    setString();
   }
   
   public Polynomial(String polynomial){
     this.polynomial = polynomial;
     setArray();
-    setDegree(coefficients);
   }
   
   private setDegree(int[] coefficients){
       
   }
   
-  private setDegree(String s){
-  
-  }
-  
   private setArray(){
-  
+    int[] coeff
   }
   
   private setString(){
