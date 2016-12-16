@@ -16,3 +16,5 @@ Vatsal:
     We are trying to make a solver that can solve any degree polynomials. And as to the code, it works for the beginning but I was             thinking of reading the String itself and creating an Integer[] from the string.
         "12x^2 + 5x^1 + 4" would yield an Integer[] {+12,+5,+4}. 
     This would make it easier for the user to read and implement this class.
+    Varun:
+    Does the class need a constructor?
