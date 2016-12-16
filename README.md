@@ -19,3 +19,4 @@ Vatsal:
 Varun:
     Does the class need a constructor?
 Vatsal: Yes.
+Varun: Should we use the loop I wrote?
