@@ -36,3 +36,6 @@ Vatsal: The loop is incorrect, and will go on forever since we arent modifying t
                 reader += polynomial.charAt(i);
            }
         It would read 12x^2 then 5x^1, then 4 and we can have a separate loop to determine the coefficients.
+        
+        
+Varun: But I am changing Polynomial. I am doing this: polynomial = polynomial.substring(index); every time the loop runs.
