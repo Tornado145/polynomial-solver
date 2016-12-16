@@ -9,7 +9,13 @@ public class Polynomial{
   }
   
   private void setArray(){
-  
-  
+    while(polynomial.indexOf("^") != -1) {
+        int index = 0;
+        int i = 0;
+        coefficient[i] = Integer.parseInt(polynomial.substring(index, polynomial.indexOf("^"));
+        i++;
+        index = polynomial.indexOf("^")+3;
+        polynomial = polynomial.substring(index);
+    }
   }
 }
