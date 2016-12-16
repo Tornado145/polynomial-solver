@@ -40,3 +40,4 @@ Vatsal: The loop is incorrect, and will go on forever since we arent modifying t
         
 Varun: But I am changing Polynomial. I am doing this: polynomial = polynomial.substring(index); every time the loop runs.
 Vatsal: Then it might work, i'll try it out on eclipse.
+Vatsal: The loop doesnt work, but the principle is solid. We could work on a loop that searches for the index of the plus and minus signs, then reads the integer from there adding the plus or minus back to the integer as it goes.
