@@ -20,3 +20,6 @@ Varun:
     Does the class need a constructor?
 Vatsal: Yes.
 Varun: Should we use the loop I wrote?
+Vatsal: We need a loop that can handle any size integer, this loop is efficient but will not work with a monomial with a coefficient greater than nine. We need a loop that can read a string like this:
+     "12x^2 + 5x^1 + 4"
+ to make an array like {12, 5, 4}.
