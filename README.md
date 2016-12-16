@@ -24,4 +24,15 @@ Vatsal: We need a loop that can handle any size integer, this loop is efficient 
      "12x^2 + 5x^1 + 4"
  to make an array like {12, 5, 4}.
 Varun: But an array has set limits so how would we make the program work for any polynomial?
-Are ArrayLists elastic?
+        Are ArrayLists elastic?
+Vatsal: The loop is incorrect, and will go on forever since we arent modifying the string itself(The "^" character will always be there), We need to think of another way to read the string polynomial. Maybe we could use spaces. And as for arrays we can use normal arrays as long as their size hasnt been preset.
+        A loop like this might work:
+           String reader;
+           for(int i = 0; i < polynomial.length(); i++){
+                if(polynomial.charAt(i) == ' '){
+                    doSomething();
+                }
+                
+                reader += polynomial.charAt(i);
+           }
+        It would read 12x^2 then 5x^1, then 4 and we can have a separate loop to determine the coefficients.
